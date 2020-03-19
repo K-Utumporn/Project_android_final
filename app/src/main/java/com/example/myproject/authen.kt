@@ -51,7 +51,7 @@ class authen : Fragment() {
     }
     private fun handleFacebookAccessToken(token : AccessToken) {
 
-
+        //comment
         Log.d(ContentValues.TAG, "handleFacebookAccessToken:" + token)
         val credential = FacebookAuthProvider.getCredential(token.token)
         firebaseAuth!!.signInWithCredential(credential).addOnCompleteListener { task ->
