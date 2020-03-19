@@ -90,7 +90,7 @@ class authen : Fragment() {
             val username = username!!.text.toString()
             val password = password!!.text.toString()
 
-            if(username == "s60160104" && password == "123456"){
+            if(username == "60160104" && password == "60160104"){
                 Toast.makeText(context,"Log in success",Toast.LENGTH_LONG).show()
                 val profile = profile().newInstance(username!!,password!!)
                 val fm = fragmentManager
