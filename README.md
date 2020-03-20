@@ -8,9 +8,9 @@
 # เทคนิคที่ใช้พัฒนาแอปพลิเคชัน
 
 1. Facebook authen
-2. fragment
-3. recycler view
-4. noSQL(realtime database)
+2. Fragment
+3. Recycler view
+4. NoSQL(realtime database)
 5. Dialog
 
 # ภาพหน้าจอแอปพลิเคชัน
